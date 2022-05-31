@@ -32,7 +32,7 @@
     ctx.fillStyle="rgba(0,0,0,0.05)";
     ctx.fillRect(0,0,canvas.width,canvas.height);
     ctx.fillStyle="green";
-    ctx.font=fontSize+"px arial";
+    ctx.font=fontSize+"Consolas";
     for(var i=0;i<cols;i++){
       var text=str[ Math.floor( Math.random() * (str.length) ) ];
       ctx.fillText(text,i*fontSize,drops[i]*fontSize);
